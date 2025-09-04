@@ -53,7 +53,7 @@ const displayPost = (words) => {
     words.forEach(element => {
         const div = document.createElement("div");
         div.innerHTML = `
-    <div class="bg-[#FFFFFF]  p-12 text-center rounded-lg shadow-sm ">
+    <div class="bg-[#FFFFFF]  p-12 text-center rounded-lg shadow-sm h-full ">
                     <div class="space-y-3">
                         <h1 class="font-bold text-3xl">${element.word?element.word : "কোন শব্দ পাওয়া যায় নি"}</h1>
                         <p class="font-medium text-xl">Meaning / Pronunciation</p>
